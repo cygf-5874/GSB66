@@ -1,0 +1,30 @@
+# Node 依赖与产物
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# 覆盖率与缓存
+coverage/
+.nyc_output/
+.cache/
+*.tsbuildinfo
+
+# 日志与临时件
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+# 编辑器 / 系统
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# 本地配置与凭据
+.env
+.env.*
+*.pem
+*.key

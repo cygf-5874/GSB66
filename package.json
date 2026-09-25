@@ -1,0 +1,11 @@
+{
+  "name": "notifybus",
+  "version": "1.0.0",
+  "private": true,
+  "description": "进程内事件总线（代码审查练习题）",
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "check": "node check/check.mjs"
+  }
+}
